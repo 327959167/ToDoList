@@ -1,0 +1,134 @@
+ body {
+     background-color: #ecf0f1;
+ }
+ 
+ .container {
+     background-color: #bdc3c7;
+     height: 100vh;
+     padding: 0;
+ }
+ 
+ #search {
+     width: 400px;
+ }
+ 
+ .navbarsearch {
+     margin-left: 10%;
+ }
+ 
+ .matters {
+     padding-left: 10px;
+ }
+ 
+ .matters .title div {
+     float: left;
+     font-size: 24px;
+     font-weight: bolder;
+     margin-bottom: 20px;
+ }
+ 
+ .matters .title div:nth-of-type(2) {
+     width: 30px;
+     height: 30px;
+     text-align: center;
+     line-height: 30px;
+     border-radius: 50%;
+     color: #ffffff;
+     margin-left: 70%;
+     background-color: #1e3799;
+ }
+ 
+ .matters .todo {
+     clear: both;
+     width: 85%;
+     border-radius: 5px;
+ }
+ 
+ .matters .todo ul {
+     margin: 0 !important;
+     padding: 0 !important;
+ }
+ 
+ .matters .todo ul li {
+     list-style: none;
+     width: 100%;
+     height: 40px;
+     background-color: #fff;
+     border-radius: 5px;
+ }
+ 
+ .matters .todo ul li div span:nth-of-type(1) {
+     float: left;
+     width: 10px;
+     height: 40px;
+     border-top-left-radius: 5px;
+     border-bottom-left-radius: 5px;
+     background-color: #3498db;
+ }
+ 
+ .matters .todo ul li div .checkbox {
+     float: left;
+     width: 30px;
+     height: 30px;
+     margin-top: 5px;
+     margin-left: 1%;
+ }
+ 
+ .matters .todo ul li div .text {
+     float: left;
+     width: 68%;
+     height: 30px;
+     margin-top: 5px;
+     margin-left: 2%;
+ }
+ 
+ #time {
+     float: left;
+     height: 20px;
+     width: 12%;
+     overflow: hidden;
+     font-weight: bolder;
+     line-height: 20px;
+     font-size: 0.8em;
+     margin-top: 10px;
+     margin-left: 1%;
+     color: #079992;
+ }
+ 
+ a {
+     text-decoration: none !important;
+ }
+ 
+ #dele {
+     float: right;
+     width: 20px;
+     height: 20px;
+     text-decoration: none !important;
+     line-height: 20px;
+     font-size: 20px;
+     margin-top: 10px;
+     margin-right: 1%;
+     cursor: pointer;
+     color: #000000;
+     transition: .5s;
+ }
+ 
+ #dele:hover {
+     color: #c0392b;
+     transform: scale(1.2);
+ }
+ 
+ .finished {
+     margin-top: 20px;
+ }
+ 
+ .matters ul li {
+     margin-bottom: 10px;
+ }
+ 
+ #headerimg {
+     width: 40px;
+     height: 40px;
+     margin-top: 5px;
+     border-radius: 50%;
+ }

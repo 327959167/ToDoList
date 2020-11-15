@@ -1,0 +1,27 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.btn:hover,
+.btn:focus {
+    outline: none;
+}
+
+.loginbox {
+    width: 600px;
+    height: 300px;
+    padding: 50px;
+    margin: 150px auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.loginbox .srk {
+    margin-bottom: 40px;
+}
+
+.loginbox .butn input {
+    width: 100px !important;
+}
